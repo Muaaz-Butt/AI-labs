@@ -51,42 +51,32 @@ def create_and_access_array():
     print("Last element:", arr[-1])
 
 def main():
-    # Task 1
     d = {'apple': 5, 'banana': 2, 'orange': 8, 'pear': 1}
     sort_dict_by_value(d)
 
-    # Task 2
     check_key_exists(d, 'banana')
     check_key_exists(d, 'grape')
 
-    # Task 3
     d1 = {'a': 1, 'b': 2}
     d2 = {'c': 3, 'd': 4}
     merge_dicts(d1, d2)
 
-    # Task 4
     t = (1, 2, 3)
     add_item_to_tuple(t, 4)
 
-    # Task 5
     create_tuple_different_types()
 
-    # Task 6
     lst = [1, 2, 3, 4, 5]
     sum_list_items(lst)
 
-    # Task 7
     get_largest_number(lst)
 
-    # Task 8
     s = {1, 2, 3}
     add_members_to_set(s, {4, 5})
 
-    # Task 9
     arr = array.array('i', [1, 2, 3, 4, 5])
     reverse_array(arr)
 
-    # Task 10
     create_and_access_array()
 
 if __name__ == "__main__":
